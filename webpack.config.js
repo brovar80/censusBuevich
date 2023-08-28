@@ -88,10 +88,6 @@ module.exports = (env, { mode }) => {
                 inject: true,
                 chunks: [ 'app' ]
             }),
-            new CopyWebpackPlugin({
-                patterns: [
-                    {from:'./src/favicon',to:'./favicon'}
-                ]}),
             new webpack.DefinePlugin({
                 env: {
                     searchOnlyAPIKey,
