@@ -78,7 +78,7 @@ ${nationality ? `Нацианальность: ${nationality};` : ''}
                                                 placement={'auto'}
                                                 overlay={<Tooltip id={`tooltip-rigth`}>{`${fod}, лл. ${page}`}</Tooltip>}
                                             >
-                                                <span>
+                                                <span className="year">
                                                     <span>1926</span>
                                                     <svg id="Layer_1"
                                                          data-name="Layer 1"
